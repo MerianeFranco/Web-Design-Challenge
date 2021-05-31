@@ -1,0 +1,219 @@
+
+#m-temp {
+    height: 500px;
+    width: 740px;
+    float: left; 
+    margin-left: 10px;
+    margin-right: 20px;
+    }
+
+
+    
+    #m-temp-index {
+        height: 200px;
+        width: 200px;
+        float: left; 
+        margin-left: 10px;
+        margin-right: 20px;
+        }
+    
+    #v-temp {
+        height: 170px;
+        width: 170px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    
+        }
+    
+    #comparison {
+        height: 280px;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+      width: 80%;
+    
+        }
+
+    .container{
+        background-color: white;
+        margin-top: 40px;
+
+    }
+    
+    h1{
+        color:rgb(74, 170, 165);
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: left;
+        font-size: 36px;
+        font-family:Times;
+        font-weight: bold;
+        }
+    
+    h2{
+        color:rgb(74, 170, 165);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 22px;
+        font-family:Times;
+        font-weight: bold;
+        }
+    
+    .col-md-12{
+        color: black;
+        margin-left: 10px;
+        text-align: left;
+        
+        }
+        
+    h3{
+        
+        background-color: rgb(74, 170, 165);
+        color:white;
+        font-size: 50px;
+        font-familY:Times;
+        font-weight: bold;       
+    }
+    body{
+        background-color:lightgray;
+     
+   
+    }
+ 
+html {
+  height: 100%;
+  }
+
+  hr{
+    
+        height: 1px;
+        background-color:rgb(203, 247, 247);
+        border: none;
+    
+  }
+
+  .navbar-brand{
+      display: inline-block;
+      padding: 10px;
+    background-color: rgb(74, 170, 165);
+    margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: -9px;
+    
+
+
+  }
+
+
+/* Table Styles from  https://freefrontend.com/css-tables/ */
+
+.table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.1 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 13px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background:  rgb(74, 170, 165);
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .fl-table {
+        display: block;
+        width: 100%;
+    }
+    .table-wrapper:before{
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    .fl-table thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+    .fl-table thead th:last-child{
+        border-bottom: none;
+    }
+    .fl-table thead {
+        float: left;
+    }
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    .fl-table td, .fl-table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+    .fl-table tbody tr:nth-child(odd) {
+        background: none;
+    }
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+    .fl-table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+}
+
